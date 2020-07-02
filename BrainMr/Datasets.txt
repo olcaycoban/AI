@@ -1,0 +1,3 @@
+BrainMr : https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection
+
+KerasPreTrained Model (for VGG16) : https://www.kaggle.com/gaborfodor/keras-pretrained-models

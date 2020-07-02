@@ -1,0 +1,3 @@
+CatsDogsImages: https://www.kaggle.com/biaiscience/dogs-vs-cats
+
+VGG16 : https://www.kaggle.com/keras/vgg16

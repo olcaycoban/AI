@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image classification using MobileNet and p5.js</title>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+  <script>
+    if (!window.process) {
+      window.process = {};
+    }
+    if (!window.process.env) {
+      window.process.env = {};
+    }
+    window.process.env.API_URL = '/editor';
+    window.process.env.NODE_ENV = 'production';
+    window.process.env.S3_BUCKET = 'assets.editor.p5js.org';
+    window.process.env.S3_BUCKET_URL_BASE = 'https://assets.editor.p5js.org/';
+    window.process.env.AWS_REGION = 'us-west-2';
+    window.process.env.FORCE_TO_HTTPS = false;
+    window.process.env.CLIENT = true;
+    window.process.env.LOGIN_ENABLED = true;
+    window.process.env.EXAMPLES_ENABLED = true;
+    window.process.env.UI_ACCESS_TOKEN_ENABLED = false;
+    window.process.env.UI_COLLECTIONS_ENABLED = true;
+    window.process.env.UPLOAD_LIMIT = 250000000;
+  </script>
+</head>
+
+<body>
+  <h1>Image classification using MobileNet and p5.js</h1>
+  <script src="predict4.js"></script>
+</body>
+
+</html>

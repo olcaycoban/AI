@@ -1,0 +1,10 @@
+Uzak Makinede çalışılmıştır.
+Kodlar paylaşılmıştır.
+Model paylaşılmıştır.
+Rapor hem word hem pdf formatında paylaşılmıştır.
+Veri setleri ".csv" dosyası şeklinde paylaşılmışıtır.
+İta.csv dosyası resmi İtalyan kaynaklardan alınmıştır.
+Turkey.csv dosyası Sağlık Bakanlığının resmi verileridir.
+Sistem denenmiştir. Ekran görüntüsü paylaşılmıştır.
+Sistemin grafik görüntüleri paylaşılmıştır.("Grafik1.png, Grafik2.png") 
+Hata kareleri toplamı paylaşılmıştır.("HataKaresi.png")
